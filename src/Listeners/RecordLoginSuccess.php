@@ -1,6 +1,6 @@
 <?php
 
-namespace Ubeeqo\LaravelSift\Listeners;
+namespace ubeeqo\LaravelSift\Listeners;
 
 use Illuminate\Auth\Events\Login;
 

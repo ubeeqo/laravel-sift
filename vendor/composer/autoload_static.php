@@ -14,8 +14,8 @@ class ComposerStaticInit1a85d140f03a931f1e9a38a63d41951c
     public static $prefixLengthsPsr4 = array (
         'U' => 
         array (
-            'Ubeeqo\\Tests\\LaravelSift\\' => 25,
-            'Ubeeqo\\LaravelSift\\' => 19,
+            'ubeeqo\\Tests\\LaravelSift\\' => 25,
+            'ubeeqo\\LaravelSift\\' => 19,
         ),
         'I' => 
         array (
@@ -25,11 +25,11 @@ class ComposerStaticInit1a85d140f03a931f1e9a38a63d41951c
     );
 
     public static $prefixDirsPsr4 = array (
-        'Ubeeqo\\Tests\\LaravelSift\\' => 
+        'ubeeqo\\Tests\\LaravelSift\\' =>
         array (
             0 => __DIR__ . '/../..' . '/tests',
         ),
-        'Ubeeqo\\LaravelSift\\' => 
+        'ubeeqo\\LaravelSift\\' =>
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),

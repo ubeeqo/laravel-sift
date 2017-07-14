@@ -1,9 +1,9 @@
 <?php
 
-namespace Ubeeqo\LaravelSift\Jobs;
+namespace ubeeqo\LaravelSift\Jobs;
 
-use Ubeeqo\LaravelSift\Jobs\Job;
-use Ubeeqo\LaravelSift\SiftScience;
+use ubeeqo\LaravelSift\Jobs\Job;
+use ubeeqo\LaravelSift\SiftScience;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
 
@@ -40,7 +40,7 @@ class TrackUsingQueue extends Job implements ShouldQueue
     /**
      * Execute the job
      *
-     * @param Ubeeqo\LaravelSift\SiftScience $sift
+     * @param ubeeqo\LaravelSift\SiftScience $sift
      */
     public function handle(SiftScience $sift)
     {

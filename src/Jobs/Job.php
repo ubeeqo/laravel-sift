@@ -1,6 +1,6 @@
 <?php
 
-namespace Ubeeqo\LaravelSift\Jobs;
+namespace ubeeqo\LaravelSift\Jobs;
 
 use Illuminate\Bus\Queueable;
 

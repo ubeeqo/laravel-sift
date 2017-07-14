@@ -1,6 +1,6 @@
 <?php
 
-namespace Ubeeqo\LaravelSift\Facades;
+namespace ubeeqo\LaravelSift\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -13,6 +13,6 @@ class SiftScience extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return \Ubeeqo\LaravelSift\SiftScience::class;
+        return \ubeeqo\LaravelSift\SiftScience::class;
     }
 }

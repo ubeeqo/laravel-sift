@@ -1,9 +1,9 @@
 <?php
 
-namespace Ubeeqo\LaravelSift\ViewComposers;
+namespace ubeeqo\LaravelSift\ViewComposers;
 
 use Illuminate\View\View;
-use Ubeeqo\LaravelSift\SiftScience;
+use ubeeqo\LaravelSift\SiftScience;
 use Illuminate\Contracts\Auth\Guard;
 
 class SnippetComposer

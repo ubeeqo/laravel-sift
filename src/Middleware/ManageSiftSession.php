@@ -1,6 +1,6 @@
 <?php
 
-namespace Ubeeqo\LaravelSift\Middleware;
+namespace ubeeqo\LaravelSift\Middleware;
 
 use Closure;
 use Illuminate\Support\Str;

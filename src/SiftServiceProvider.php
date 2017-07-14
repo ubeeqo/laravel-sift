@@ -1,12 +1,12 @@
 <?php
 
-namespace Ubeeqo\LaravelSift;
+namespace ubeeqo\LaravelSift;
 
 use SiftClient;
 use Illuminate\Routing\Router;
 use Illuminate\Support\ServiceProvider;
-use Ubeeqo\LaravelSift\Middleware\ManageSiftSession;
-use Ubeeqo\LaravelSift\ViewComposers\SnippetComposer;
+use ubeeqo\LaravelSift\Middleware\ManageSiftSession;
+use ubeeqo\LaravelSift\ViewComposers\SnippetComposer;
 use Illuminate\Contracts\Events\Dispatcher as DispatcherContract;
 
 class SiftServiceProvider extends ServiceProvider
@@ -18,13 +18,13 @@ class SiftServiceProvider extends ServiceProvider
      */
     protected $listen = [
         'Illuminate\Auth\Events\Login' => [
-            'Ubeeqo\LaravelSift\Listeners\RecordLoginSuccess',
+            'ubeeqo\LaravelSift\Listeners\RecordLoginSuccess',
         ],
         'Illuminate\Auth\Events\Logout' => [
-            'Ubeeqo\LaravelSift\Listeners\RecordLogout',
+            'ubeeqo\LaravelSift\Listeners\RecordLogout',
         ],
         'Illuminate\Auth\Events\Failed' => [
-            'Ubeeqo\LaravelSift\Listeners\RecordLoginFailure',
+            'ubeeqo\LaravelSift\Listeners\RecordLoginFailure',
         ],
     ];
 

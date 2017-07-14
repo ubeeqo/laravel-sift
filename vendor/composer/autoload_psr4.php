@@ -6,8 +6,8 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Ubeeqo\\Tests\\LaravelSift\\' => array($baseDir . '/tests'),
-    'Ubeeqo\\LaravelSift\\' => array($baseDir . '/src'),
+    'ubeeqo\\Tests\\LaravelSift\\' => array($baseDir . '/tests'),
+    'ubeeqo\\LaravelSift\\' => array($baseDir . '/src'),
     'Illuminate\\Support\\' => array($vendorDir . '/illuminate/support'),
     'Illuminate\\Contracts\\' => array($vendorDir . '/illuminate/contracts'),
 );

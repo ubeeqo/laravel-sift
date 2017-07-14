@@ -1,6 +1,6 @@
 <?php
 
-namespace Ubeeqo\LaravelSift;
+namespace ubeeqo\LaravelSift;
 
 use SiftClient;
 use Illuminate\Session\Store as SessionStore;

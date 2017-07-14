@@ -1,10 +1,10 @@
 <?php
 
-namespace Ubeeqo\LaravelSift\Listeners;
+namespace ubeeqo\LaravelSift\Listeners;
 
 use Illuminate\Session\Store;
-use Ubeeqo\LaravelSift\SiftScience;
-use Ubeeqo\LaravelSift\Jobs\TrackUsingQueue;
+use ubeeqo\LaravelSift\SiftScience;
+use ubeeqo\LaravelSift\Jobs\TrackUsingQueue;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 
 abstract class RecordAuthAction
@@ -18,7 +18,7 @@ abstract class RecordAuthAction
      * Create the event listener.
      *
      * @param \Illuminate\Session\Store $session
-     * @param \Ubeeqo\LaravelSift\SiftScience $sift
+     * @param \ubeeqo\LaravelSift\SiftScience $sift
      * @return void
      */
     public function __construct(Store $session, SiftScience $sift)

@@ -1,10 +1,10 @@
 {
-  "name": "Ubeeqo/laravel-sift",
+  "name": "ubeeqo/laravel-sift",
   "description": "A Laravel 5 package for Sift Science",
   "license": "MIT",
   "authors": [
     {
-      "name": "Ubeeqo",
+      "name": "ubeeqo",
       "email": "dev@ubeeqo.com"
     }
   ],
@@ -15,12 +15,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Ubeeqo\\LaravelSift\\": "src/"
+      "ubeeqo\\LaravelSift\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Ubeeqo\\Tests\\LaravelSift\\": "tests/"
+      "ubeeqo\\Tests\\LaravelSift\\": "tests/"
     }
   }
 }
