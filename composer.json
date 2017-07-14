@@ -8,12 +8,6 @@
       "email": "dev@ubeeqo.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "ssh://git@git.ubeeqo.com:community/laravel-sift.git"
-    }
-  ],
   "require": {
     "siftscience/sift-php": "1.*",
     "illuminate/contracts": "5.1.*|5.2.*|5.3.*|5.4.*",
